@@ -15,3 +15,9 @@ This project analyzes bikeshare data from three major cities: Chicago, New York 
 1. Clone the repository:
    ```bash
    git clone https://github.com/sasa0310/Project3-for-post-your-work-on-github.git
+Navigate to the project directory:
+
+cd Project3-for-post-your-work-on-github
+Ensure you have the required libraries installed. You may need to install the following Python libraries:
+
+pip install pandas numpy
