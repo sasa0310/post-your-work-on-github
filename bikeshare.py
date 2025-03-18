@@ -26,7 +26,10 @@ def get_user_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input("Please enter a month (all, january, february, ... , june): ").lower()
     months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
-    while month not in months:
+    def is_valid_month(month)
+        return month in months
+
+    while not is_valid_month(month)
         print("Invalid month. Please try again.")
         month = input("Please enter a month (all, january, february, ... , june): ").lower()
 
